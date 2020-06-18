@@ -73,14 +73,15 @@ header{
 }
 
 .list ul{
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: blanchedalmond;
     align-items: center;
+    padding: 40px;
 }
 .list li{
-    display: flex;
+    margin: auto;
     align-items: center;
-    margin:20px  auto;
     font-size: 18px;
 
 }
